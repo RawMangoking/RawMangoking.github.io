@@ -19,7 +19,6 @@ html, body {
   transition: background-image 0.5s ease-in-out;
 }
 
-/* Header Styling */
 header {
   text-align: center;
   padding: 60px 20px 30px;
@@ -60,7 +59,6 @@ header button:hover {
   z-index: 1;
 }
 
-/* Cards */
 .card {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(5px);
@@ -73,7 +71,7 @@ header button:hover {
   transition: color 0.5s ease;
 }
 .internship-btn {
-  background-color: #1e90ff;  /* Dodger Blue */
+  background-color: #1e90ff;  
   color: white;
   border-radius: 5px;
   padding: 10px 20px;
@@ -84,10 +82,9 @@ header button:hover {
 }
 
 .internship-btn:hover {
-  background-color: #1565c0;  /* Darker shade on hover */
+  background-color: #1565c0; 
 }
 
-/* Profile Image */
 .profile-image {
   flex-shrink: 0;
   max-width: 280px;
@@ -102,7 +99,6 @@ header button:hover {
   object-fit: cover;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 20px;
@@ -113,13 +109,13 @@ footer {
   z-index: 1;
 }
 a {
-  color: inherit;         /* Inherit text color from parent */
-  text-decoration: none;  /* Remove underline */
+  color: inherit;        
+  text-decoration: none;  
 }
 
 a:hover {
-  text-decoration: underline; /* Optional: show underline on hover */
-  color: #0400ff;             /* Optional: highlight on hover */
+  text-decoration: underline; 
+  color: #0400ff;             
 }
 .navbar {
   display: flex;
