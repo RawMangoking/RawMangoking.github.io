@@ -35,4 +35,4 @@ function changeTimeTheme() {
 }
 
 changeTimeTheme();
-setInterval(changeTimeTheme, 5 * 60 * 1000);
+setInterval(changeTimeTheme, 60 * 1000);
