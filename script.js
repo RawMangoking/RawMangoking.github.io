@@ -36,3 +36,7 @@ function changeTimeTheme() {
 
 changeTimeTheme();
 setInterval(changeTimeTheme, 60 * 1000);
+
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
